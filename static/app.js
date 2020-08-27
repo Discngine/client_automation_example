@@ -10,10 +10,9 @@ function onDocumentReady() {
     .instanciateSpotfireDocumentAsync(
       'https://vmsolspotts04.discngine.com/spotfire/wp', // Your spotfire server url
       '/Discngine/Client Automation/empty', // The document you want to open by default in Web Player (required for Web Player)
-      function(err, data) {
+      function(err) {
         if (err) {
-          console.error('Error while instanciating SpotfireDocument');
-          console.error(err);
+          console.log('Error when loading Discngine Client Automatin API', err);
         }
       }
     )
