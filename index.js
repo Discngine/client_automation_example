@@ -6,7 +6,7 @@ var PORT = 3002;
 
 var server = http.createServer((req, res) => {
   if (req.url === '/') {
-    return fs.readFile(path.resolve(`${__dirname}/index.html`), (err, data) => {
+    return fs.readFile(path.resolve(`${__dirname}/public/index.html`), (err, data) => {
       if (err) {
         res.writeHead(404);
         res.end(JSON.stringify(err));
@@ -21,7 +21,7 @@ var server = http.createServer((req, res) => {
 
   if (
     req.url === '/api/Discngine-Connector-api.js' ||
-    req.url === '/static/app.js'
+    req.url === '/public/app.js'
   ) {
     return fs.readFile(path.resolve(`${__dirname}${req.url}`), function(
       err,
