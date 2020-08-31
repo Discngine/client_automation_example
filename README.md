@@ -1,3 +1,5 @@
+!["Discngine Logo"](https://static1.squarespace.com/static/527ce929e4b0d974f5707b6b/t/5e691731e8d9fa2fd4ff18c4/1597303322986/?format=1500w)
+
 # Discngine Connector - TIBCO Spotfire&reg; mashup application
 This small application demonstrates how to build a mashup application with TIBCO Spotfire&reg; using the [Discngine Connector](https://connector.discngine.com)
 With it you can interact with the Spotfire Document, load data, add charts, listen to events and so on.
