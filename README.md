@@ -4,6 +4,9 @@
 This small application demonstrates how to build a mashup application with TIBCO Spotfire&reg; using the [Discngine Connector](https://connector.discngine.com)
 With it you can interact with the Spotfire Document, load data, add charts, listen to events and so on.
 
+## Software Versions
+This app was built with Node.js v10 and Discngine Connector 5.4.
+
 ## Technology
 The Discngine Connector is a standard Javascript API, thus it can be used with any modern Javascript framework like [React](https://reactjs.org), [Svelte](https://svelte.dev/), [Angular](https://angular.io/) or [Vue](https://vuejs.org/).
 
