@@ -20,7 +20,7 @@ var server = http.createServer((req, res) => {
   }
 
   if (
-    req.url === '/api/Discngine-Connector-api.js' ||
+    req.url === '/api/SpiceUp.Ax-js-api.js' ||
     req.url === '/public/app.js'
   ) {
     return fs.readFile(path.resolve(`${__dirname}${req.url}`), function(
